@@ -1,10 +1,10 @@
-num_ent = int(input("Numero de Entradas: "))
+num_ent = int(input(""))
 if(0<num_ent<100):
     x=0
     lis_final=[]
     while x<num_ent:
 
-        srt_ent = input("Escreva Aqui: ") #pede uma entrada
+        srt_ent = input("") #pede uma entrada
         srt_inv = srt_ent.split()[::-1] #transforma a frase em lista, ja em ondem invertida
         if (0<len(srt_inv)<100): #verifica se há menos de 100 palavras
             num_pal = len(srt_inv) #pega a quantidade de palavras
